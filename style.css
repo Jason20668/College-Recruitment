@@ -101,3 +101,23 @@ body {
 .carousel-inner {
   padding: 1em;
 }
+
+#areaBackground {
+  background-color: orangered;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+ }
