@@ -1,18 +1,18 @@
 header {
-    background-color: orangered;
+  background-color: orangered;
 }
 
 #Tiger {
-    height: 400px;
-    width: 800px;
+  height: 400px;
+  width: 800px;
 }
 
 #headerText {
-    color: white;
-    font-family: "captain-comic", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-shadow: 4px 2px 0 #000000,
+  color: white;
+  font-family: "captain-comic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 4px 2px 0 #000000,
     -1px 1px 0 #000000,
     1px -1px 0 #000000,
     -1px -1px 0 #000000,
@@ -36,12 +36,12 @@ header {
     -2px 1px 0 #000000,
     2px -1px 0 #000000,
     -2px -1px 0 #000000;
-    font-size: 200px;
+  font-size: 200px;
 }
 
 h1 {
-    color: white;
-    text-shadow: 2px 2px 0 #000000,
+  color: white;
+  text-shadow: 2px 2px 0 #000000,
     -1px 1px 0 #000000,
     1px -1px 0 #000000,
     -1px -1px 0 #000000,
@@ -68,25 +68,26 @@ h1 {
 }
 
 body {
-    background-color: #FFFDD0;
+  background-color: #FFFDD0;
 }
 
 .missionValues {
-    background-color: orangered;
+  background-color: orangered;
 }
 
 #mission {
-    font-size: 65px;
+  font-size: 65px;
 }
 
 #values {
-        font-size: 65px;
+  font-size: 65px;
 }
 
 .cards-wrapper {
   display: flex;
   justify-content: center;
 }
+
 .card img {
   max-width: 100%;
   max-height: 100%;
@@ -98,6 +99,7 @@ body {
   border: none;
   border-radius: 0;
 }
+
 .carousel-inner {
   padding: 1em;
 }
@@ -117,7 +119,164 @@ body {
 }
 
 @media (min-width: 768px) {
-    .card img {
-      height: 11em;
-    }
- }
+  .card img {
+    height: 11em;
+  }
+}
+
+.button-19 {
+  appearance: button;
+  background-color: #8d0000;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #a70000;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px 0 #000000,
+    -1px 1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px -1px 0 #000000,
+    0px 1px 0 #000000,
+    0px -1px 0 #000000,
+    -1px 0px 0 #000000,
+    1px 0px 0 #000000,
+    2px 2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    0px 2px 0 #000000,
+    0px -2px 0 #000000,
+    -2px 0px 0 #000000,
+    2px 0px 0 #000000,
+    1px 2px 0 #000000,
+    -1px 2px 0 #000000,
+    1px -2px 0 #000000,
+    -1px -2px 0 #000000,
+    2px 1px 0 #000000,
+    -2px 1px 0 #000000,
+    2px -1px 0 #000000,
+    -2px -1px 0 #000000;
+}
+
+#areaStudy {
+  background-color: orangered;
+}
+
+#famous {
+  background-color: #ff6600
+}
+
+h5{
+    color: white;
+  text-shadow: 2px 2px 0 #000000,
+    -1px 1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px -1px 0 #000000,
+    0px 1px 0 #000000,
+    0px -1px 0 #000000,
+    -1px 0px 0 #000000,
+    1px 0px 0 #000000,
+    2px 2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    0px 2px 0 #000000,
+    0px -2px 0 #000000,
+    -2px 0px 0 #000000,
+    2px 0px 0 #000000,
+    1px 2px 0 #000000,
+    -1px 2px 0 #000000,
+    1px -2px 0 #000000,
+    -1px -2px 0 #000000,
+    2px 1px 0 #000000,
+    -2px 1px 0 #000000,
+    2px -1px 0 #000000,
+    -2px -1px 0 #000000;
+}
+
+p {
+    color: white;
+  text-shadow: 2px 2px 0 #000000,
+    -1px 1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px -1px 0 #000000,
+    0px 1px 0 #000000,
+    0px -1px 0 #000000,
+    -1px 0px 0 #000000,
+    1px 0px 0 #000000,
+    2px 2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    0px 2px 0 #000000,
+    0px -2px 0 #000000,
+    -2px 0px 0 #000000,
+    2px 0px 0 #000000,
+    1px 2px 0 #000000,
+    -1px 2px 0 #000000,
+    1px -2px 0 #000000,
+    -1px -2px 0 #000000,
+    2px 1px 0 #000000,
+    -2px 1px 0 #000000,
+    2px -1px 0 #000000,
+    -2px -1px 0 #000000;
+}
