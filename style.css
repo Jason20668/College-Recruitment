@@ -280,3 +280,37 @@ p {
     2px -1px 0 #000000,
     -2px -1px 0 #000000;
 }
+
+.card {
+  min-height: 500px;
+  display: flex;
+}
+
+.card .row {
+  height: 100%;
+}
+
+.card img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.change {
+  font-size: 45px;
+}
+
+.change1 {
+  font-size: 55px;
+}
+
+.Club {
+  height: 350px;
+}
+
+.ClubTwo {
+  height: 550px;
+}
+
+.ClubThree{
+  height: 550px;
+}
