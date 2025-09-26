@@ -9,7 +9,6 @@ header {
 
 #headerText {
   color: white;
-  font-family: "captain-comic", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-shadow: 4px 2px 0 #000000,
@@ -36,7 +35,7 @@ header {
     -2px 1px 0 #000000,
     2px -1px 0 #000000,
     -2px -1px 0 #000000;
-  font-size: 200px;
+  font-size: 10vw;
 }
 
 h1 {
@@ -314,3 +313,4 @@ p {
 .ClubThree{
   height: 550px;
 }
+
